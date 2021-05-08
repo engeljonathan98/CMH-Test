@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quiet as it's kept</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="icon" href="images/logo.png">
+	</head>
+	<body>
+		<div id = "home">
+			<p id = "bold"></p>
+			<h1 id = "welcome">welcome to our gallery</h1>
+
+			<form id="usernameForm" action="./gallery.html" method="get">
+				<p> what should we call you? </p>
+				<input type="text" name="username" value="" required/>
+      </form>
+			
+			<audio id = "audio" controls autoplay>
+	  			<source src="elevator.mp4" type="audio/mpeg">
+	  	</audio>
+
+	  </div>
+			
+		<script>
+			function inputUsername() {
+				var username = document.getElementById("usernameForm").submit();
+			}
+		</script>
+	</body>
+</html>

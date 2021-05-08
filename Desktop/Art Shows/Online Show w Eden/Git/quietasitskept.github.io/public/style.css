@@ -1,0 +1,50 @@
+body {
+	background-color: #fcb7a4;
+}
+
+#home {
+	background-color: white;
+	width: 50%;
+	margin-left: 25%;
+	height: 500px; 
+	text-align: center;
+	margin-top: 100px;
+}
+
+#audio {
+	margin-top: 100px;
+}
+
+#welcome {
+	padding-top: 25px;
+}
+
+#bold {
+	background-color: black;
+	padding-top: 50px;
+}
+
+#submit {
+	border-radius: 5px;
+	padding-right: 10px;  
+}
+
+#gallery {
+	display: inline-block;
+	position: absolute;
+	background-color: white;
+	margin-top: 5%;
+	height: 550px; 
+	width: 50%;
+	margin-left: 5%;  	  
+}
+
+#chat {
+	display: inline-block;
+	position: relative; 
+	background-color: white; 
+	margin-top: 5%;
+	height: 550px;
+	width: 35%;
+	margin-left: 60%;
+}

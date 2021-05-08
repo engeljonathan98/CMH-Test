@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quiet as it's kept</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!--<link rel="icon" href="images/logo.png">-->
+	</head>
+	<body>
+		<script>
+			let params = new URLSearchParams(document.location.search.substring(1));
+			var username = params.get("username");
+			w3.displayObject("chat", username);
+		</script>
+		
+		<div id = "gallery"></div>
+		<div id = "chat">
+			{{username}}
+		</div>
+	</body>
+</html>
